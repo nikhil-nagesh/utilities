@@ -1,4 +1,4 @@
-# GitHubActions to Verify hms_deployment_manager.txt
+# GitHubActions to Validate Deployment Manager File
 
 A GitHub Action will be triggered as and when there is a modification in hms_deployment_manager.txt. 
 This is created to ensure that the first three lines of the file are present in the file.
