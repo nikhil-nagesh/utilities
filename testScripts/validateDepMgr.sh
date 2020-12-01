@@ -25,7 +25,8 @@ content3=$(
 
 echo $content3
 
-
+################################################
+# Verify the first three lines
 
 if [ "$content1" = 'DO NOT REMOVE FIRST THREE LINES' ]; then
   echo 'Test Success - 1st line is proper'
@@ -46,4 +47,13 @@ if [[ "$content3" =~ ^----- ]]; then
 else
 echo 'Test Failed - 3rd line is not proper in hms_deployment_manager.txt'
 exit 1
+fi
+###################################################
+# Check for the empty lines
+if [[ -s "$file_name" && -z "$(tail -c 1 "$file_name")" ]]
+then
+    echo "Found Emptyline sat end of file!"
+    exit 1
+else
+    echo "No newline at end of file!"
 fi
