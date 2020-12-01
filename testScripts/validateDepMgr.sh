@@ -52,8 +52,8 @@ fi
 # Check for the empty lines
 if [[ -s "$file_name" && -z "$(tail -c 1 "$file_name")" ]]
 then
-    echo "Found Emptyline sat end of file!"
+    echo "Found Emptyline at end of file!"
     exit 1
 else
-    echo "No newline at end of file!"
+    echo "No newlines at end of file!"
 fi
