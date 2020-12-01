@@ -41,7 +41,7 @@ echo 'Test Failed - 2nd line is not proper in hms_deployment_manager.txt'
 exit 1
 fi
 
-if [ "$content3" = '------------------------------------------------------------------------------------------------' ]; then
+if [[ "$content3" =~ '^-----' ]]; then
   echo 'Test Success - 3rd line is proper'
 else
 echo 'Test Failed - 3rd line is not proper in hms_deployment_manager.txt'
