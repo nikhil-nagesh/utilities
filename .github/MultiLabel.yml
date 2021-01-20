@@ -1,0 +1,8 @@
+review me:
+- "*"
+
+folder mod:
+- "**"
+
+utils mod:
+- gitActionsUtils/**
