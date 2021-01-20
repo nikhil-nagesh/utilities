@@ -2,7 +2,8 @@ name: Add Labels
 
 on:
   pull_request:
-    types: opened
+    branches: 
+      - master
 
 jobs:
   add_labels:
