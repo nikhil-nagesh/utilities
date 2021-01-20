@@ -35,4 +35,4 @@ jobs:
       - name: Validate hms_deployment_manager
         run: |
             arg1=`pwd`
-            bash ${GITHUB_WORKSPACE}/PRvalidation/validateDepMgr.sh $arg1
+            bash ${GITHUB_WORKSPACE}/gitActionsUtils/validateDepMgr.sh $arg1

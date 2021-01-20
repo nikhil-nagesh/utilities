@@ -49,11 +49,3 @@ echo 'Test Failed - 3rd line is not proper in hms_deployment_manager.txt'
 exit 1
 fi
 ###################################################
-# Check for the empty lines
-if [[ -s "$file_name" && -z "$(tail -c 1 "$file_name")" ]]
-then
-    echo "Found Emptyline at end of file!"
-    exit 1
-else
-    echo "No newlines at end of file!"
-fi
