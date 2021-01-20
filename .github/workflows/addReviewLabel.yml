@@ -1,4 +1,4 @@
-# This is a workflow to run a shell script you create a push or pull on deployment manager text file.
+# This is a git action to create a label after pull request is reviewed and approved.
 # Author : Nikhil Nagesh
 # Email : Nikhil.Nagesh@evry.com
 # Create Date : 01/20/2021
