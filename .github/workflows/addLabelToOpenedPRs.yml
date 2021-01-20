@@ -1,4 +1,4 @@
-name: Add Labels
+name: Add ReviewMe Labels
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ jobs:
   add_labels:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/labeler@v2
         with:
           repo-token: "${{secrets.GITHUB_TOKEN}}"
           configuration-path: .github/labeler.yml
