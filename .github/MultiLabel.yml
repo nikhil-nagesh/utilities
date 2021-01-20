@@ -1,8 +1,8 @@
 review me:
 - "*"
 
-folder mod:
-- "**"
+config mod:
+- .github/**
 
 utils mod:
 - gitActionsUtils/**
