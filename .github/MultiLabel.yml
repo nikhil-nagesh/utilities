@@ -3,5 +3,4 @@ needs review:
 
 config update:
 - .github/**
-- gitActionsUtils/**
 
