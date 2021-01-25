@@ -7,7 +7,7 @@
 on:
   pull_request_review: 
 
-name: Label Peer Approved PRs
+name: labelApprovedPRs
 
 jobs:
   labelWhenApproved:

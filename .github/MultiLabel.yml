@@ -1,8 +1,7 @@
-review me:
+needs review:
 - "*"
 
-config mod:
+config update:
 - .github/**
-
-utils mod:
 - gitActionsUtils/**
+
