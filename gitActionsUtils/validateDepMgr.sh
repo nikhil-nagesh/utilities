@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Shell Script to validate the first three lines of hms_deployment_manager
+
 workdir=$1
 file_name=${workdir}/hms_deployment_manager.txt
 
