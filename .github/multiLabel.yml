@@ -1,6 +1,6 @@
-needs review:
+Needs Review:
 - "*"
 
-config update:
+Config Update:
 - .github/**
 - gitActionsUtils/**
