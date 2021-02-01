@@ -1,12 +1,14 @@
 <!--- 
-Description: A template to follow basic commenting and naming standards to be followed during the Pull Request Creation.
-Author : Nikhil Nagesh
-Email : Nikhil.Nagesh@evry.com
-Create Date : 01/20/2021 
+PR Naming Standard     : [CR_Number]-[ProjectTaskNumber]-[Eid/Tid]-[Description]-[Impl/Prod_Sup]-[Normal/Urgent]
 --->
 
-- [x] PR Naming Standard     : [CR_Number]-[ProjectTaskNumber]-[Eid/Tid]-[Description]-[Impl/Prod_Sup]-[Normal/Urgent]
+<!--- Edit the below section --->
 
-- Added                : < Added components >
-- Modified             : < Modified components>
-- Special Instructions : < Special Instructions if any >
+- Added                : [List added components]
+- Modified             : [List modified components]
+- Special Instructions : [Special Instructions if any]
+
+<!--- Select either one of below once PR is created --->
+
+- [x]   Implementation Task
+- [x]   Production Support Task
