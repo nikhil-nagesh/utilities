@@ -6,3 +6,4 @@ Trail 3 Testing newly added git action review me label
 Trail 4 Testing newly added git action review me label
 Testing Pull Request Template 4
 Testing the pull request template after modification
+Testing the github steps
