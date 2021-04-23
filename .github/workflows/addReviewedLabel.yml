@@ -20,5 +20,5 @@ jobs:
       env:
         APPROVALS: "1"
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ADD_LABEL: "PR Reviewed"
+        ADD_LABEL: "review-needed"
         REMOVE_LABEL: "Needs%20Review"
